@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+    scroll-behavior: smooth;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height: 10%;
+    width: 100%;
+    background-color: #08A4A7;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+}
+
+nav>h3{
+    color: rgb(255, 255, 255);
+    padding: 1.5% 5%;
+    font-weight: 900;
+    letter-spacing: 2px;
+    
+  
+}
+
+#links{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 35%;
+}
+
+a{
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+a:hover{
+    color: #042f30;
+}
+
+#home{
+    height: 100%;
+    width: 100%;
+}
+
+#home>h1{
+    font-size: 80px;
+    font-weight: 900;
+    
+    padding-top: 12%;
+    margin-left: 10%;
+}
+
+#txt1{
+    font-size: 42px;
+    font-weight: 430;
+    margin-left: 10%;
+}
+
+#txt2{
+    font-size: 24px;
+    font-weight: 430;
+    margin-left: 10%;
+    padding-top: 10px;
+}
+#pic{
+height: 400px;
+width: 400px;
+background-image: url(neelesh.png.png);
+background-position: center;
+background-size: cover;
+position: absolute;
+top: 32%;
+right: 15%;
+animation: PicAnim 2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+}
+
+#About{
+height: 100%;
+width: 100%;
+background-color: #0c7274;
+text-align: center;
+}
+#About>h1{
+    padding-top: 2%;
+    color: #fff;
+    font-weight: 400;
+}
+#container>img{
+position: relative;
+top: 30%;
+left: 10%;
+}
+#Text{
+height: 60%;
+width: 35%;
+position: relative;
+top: 30%;
+left: 20%;
+text-align: center;
+color: #fff;
+}
+#Text>p{
+font-size: 20px;
+
+}
+#container{
+position: relative;
+height: 90%;
+width: 100%;
+
+display: flex;
+
+}
+span{
+font-size: 26px;
+
+}
+#Skills{
+height: 100%;
+width: 100%;
+text-align: center;
+
+}
+#Skills>h1{
+    padding-top: 2%;
+    font-weight: 400;
+}
+
+#logos{
+height: 300px;
+width: 80%;
+position: relative;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: flex;
+justify-content: space-evenly;
+}
+
+@keyframes PicAnim{
+from{
+transform: translateX(50%);
+opacity: 0;
+}
+to{
+transform: translateX(0%);
+opacity: 1;
+}
+
+}
+#logos>img:hover{
+cursor: pointer;
+transform: rotateY(360deg);
+
+}
+#logos>img{
+transition-duration: 1.2s;
+
+}
+
+#contact{
+height: 35%;
+width: 100%;
+background-color: #074a4b;
+text-align: center;
+}
+#contact>h1{
+color: white;
+padding-top: 2%;
+font-weight: 400;
+}
+#contact>h4{
+   position: relative;
+    color: rgba(255, 255, 255, 0.397);
+    font-weight: 350;
+
+}
